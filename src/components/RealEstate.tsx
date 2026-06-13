@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const services = [
@@ -109,13 +108,11 @@ export default function RealEstate() {
         {/* Agent card */}
         <div className="bg-primary rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
           <div className="flex-shrink-0">
-            <Image
-              src="https://ancient-sea-56b3.wade-berlin.workers.dev/production/media/photos_user/photo_1039.jpg?t=1778014152"
-              alt="Anthoney Hamrick, REALTOR"
-              width={180}
-              height={180}
-              className="rounded-full border-4 border-accent"
-            />
+            <div className="w-[180px] h-[180px] rounded-full border-4 border-accent bg-white/10 flex items-center justify-center">
+              <svg className="w-20 h-20 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </div>
           </div>
           <div className="text-center md:text-left text-white flex-1">
             <h3 className="text-2xl font-bold">Anthoney Hamrick</h3>
