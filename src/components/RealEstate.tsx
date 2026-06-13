@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const services = [
   {
@@ -128,22 +129,18 @@ export default function RealEstate() {
               that sets us apart.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-6 justify-center md:justify-start">
-              <a
-                href="https://findmyflhome.com/search.html"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/search"
                 className="inline-flex items-center justify-center px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-gray-100 transition-colors"
               >
                 Search MLS Listings
-              </a>
-              <a
-                href="https://findmyflhome.com/cmaform.html"
-                target="_blank"
-                rel="noopener noreferrer"
+              </Link>
+              <Link
+                href="/cma"
                 className="inline-flex items-center justify-center px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-accent-dark transition-colors"
               >
                 Get Home Value (CMA)
-              </a>
+              </Link>
               <a
                 href="https://www.secureloandocs.com/app/36495158"
                 target="_blank"

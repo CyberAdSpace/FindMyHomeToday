@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary via-primary-dark to-primary overflow-hidden">
@@ -24,12 +26,12 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <a
-              href="#real-estate"
+            <Link
+              href="/search"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-primary bg-white rounded-xl hover:bg-gray-100 transition-colors shadow-lg"
             >
               Browse Homes for Sale
-            </a>
+            </Link>
             <a
               href="#rentals"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-accent rounded-xl hover:bg-accent-dark transition-colors shadow-lg"
