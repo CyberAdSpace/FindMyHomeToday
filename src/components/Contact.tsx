@@ -30,7 +30,7 @@ export default function Contact() {
       `Name: ${name}\nEmail: ${email}\nInterest: ${interest}\n\nMessage:\n${message}`
     );
 
-    window.location.href = `mailto:findmyhometoday@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:Contact@FindMyHomeToday.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   }
 
@@ -127,10 +127,10 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
                   <a
-                    href="mailto:findmyhometoday@gmail.com"
+                    href="mailto:Contact@FindMyHomeToday.com"
                     className="text-primary hover:underline"
                   >
-                    findmyhometoday@gmail.com
+                    Contact@FindMyHomeToday.com
                   </a>
                 </div>
               </div>
@@ -165,7 +165,7 @@ export default function Contact() {
                 </h3>
                 <p className="text-gray-600 mt-2">
                   Your email client should have opened. If not, please email us
-                  directly at findmyhometoday@gmail.com
+                  directly at Contact@FindMyHomeToday.com
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}

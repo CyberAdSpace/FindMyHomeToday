@@ -105,10 +105,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:findmyhometoday@gmail.com"
+                  href="mailto:Contact@FindMyHomeToday.com"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  findmyhometoday@gmail.com
+                  Contact@FindMyHomeToday.com
                 </a>
               </li>
               <li className="text-gray-400">Spring Hill, FL</li>
