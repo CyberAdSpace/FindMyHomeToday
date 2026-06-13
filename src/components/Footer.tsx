@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -24,24 +26,20 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="https://findmyflhome.com/search.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/search"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   MLS Search
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://findmyflhome.com/cmaform.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/cma"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Home Valuation (CMA)
-                </a>
+                </Link>
               </li>
               <li>
                 <a

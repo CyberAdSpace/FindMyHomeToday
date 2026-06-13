@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import FeaturedListings from "@/components/FeaturedListings";
 import RealEstate from "@/components/RealEstate";
 import Rentals from "@/components/Rentals";
 import About from "@/components/About";
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <FeaturedListings />
       <RealEstate />
       <Rentals />
       <About />
