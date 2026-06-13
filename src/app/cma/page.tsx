@@ -22,12 +22,16 @@ export default function CMAPage() {
             hogar
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 overflow-hidden">
           <iframe
             src="https://findmyflhome.com/cmaform.html"
             title="Comparative Market Analysis Form"
             className="w-full border-0"
-            style={{ minHeight: "calc(100vh - 160px)" }}
+            style={{
+              minHeight: "calc(100vh + 40px)",
+              marginTop: "-200px",
+            }}
+            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
             loading="lazy"
           />
         </div>

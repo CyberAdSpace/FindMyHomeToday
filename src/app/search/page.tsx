@@ -22,12 +22,16 @@ export default function SearchPage() {
             &mdash; Buscar propiedades en venta
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 overflow-hidden">
           <iframe
             src="https://findmyflhome.com/search.html"
             title="MLS Property Search"
             className="w-full border-0"
-            style={{ minHeight: "calc(100vh - 160px)" }}
+            style={{
+              minHeight: "calc(100vh + 40px)",
+              marginTop: "-200px",
+            }}
+            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
             allow="geolocation"
             loading="lazy"
           />
