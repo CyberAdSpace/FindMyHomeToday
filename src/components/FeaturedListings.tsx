@@ -23,7 +23,8 @@ export default function FeaturedListings() {
             src="https://findmyflhome.com/search_results.html?newsearch=1&theLocation=Spring+Hill,+FL&action=quicksearch"
             title="Featured MLS Listings - Spring Hill, FL"
             className="w-full border-0"
-            style={{ minHeight: "700px" }}
+            style={{ minHeight: "900px", marginTop: "-200px" }}
+            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
             loading="lazy"
           />
         </div>
